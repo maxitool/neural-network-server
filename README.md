@@ -45,17 +45,17 @@ graph TD
     
     Check{get_results_NN<br>Список групп по порогу p >= 0.2}:::condition
     
-    SecNet[Вторичные классификаторы<br><b>Weights/{group_number}.h5</b>]:::process
+    SecNet["Вторичные классификаторы<br><b>Weights/{group_number}.h5</b>"]:::process
     
     CheckSec{get_results_NN<br>Порог кандзи p >= 0.5}:::condition
     
     Res1[Успешно определен символ кандзи]:::output
-    Res2[Иероглиф мапится в кандзи '一']:::output
+    Res2["Иероглиф мапится в кандзи '一'"]:::output
     
     OutStr[Накопление символов в строку ответов: list_kanji]:::process
     
     CheckFinal{list_kanji пустая?}:::condition
-    ErrorOutput([Возврат символа '?']):::special
+    ErrorOutput(["Возврат символа '?'"]):::special
     End([Отправка list_kanji клиенту]):::input
 
     %% Связи и ветвление
@@ -79,6 +79,7 @@ graph TD
     CheckFinal -- "Да" --> ErrorOutput
     CheckFinal -- "Нет (Есть символы)" --> End
     ErrorOutput --> End
+
 ```
 
 ### Топология сверточной сети (Keras Sequential)

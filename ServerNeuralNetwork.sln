@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ServerNeuralNetwork", "ServerNeuralNetwork\ServerNeuralNetwork.pyproj", "{3D5E8053-8A77-4391-B668-67E2094206DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D5E8053-8A77-4391-B668-67E2094206DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5E8053-8A77-4391-B668-67E2094206DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {565D56E9-71C5-4292-85CD-253BA1834526}
+	EndGlobalSection
+EndGlobal

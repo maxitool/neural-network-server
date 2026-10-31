@@ -53,7 +53,7 @@ graph TD
     %% Схема конвейера
     In([Входной битмап:<br>Матрица<br>64x64x1]):::input
     
-    Main[Главный классификатор <br><b>Main.h5</b><br>Предсказание<br>групп 0-53]:::process
+    Main[Главный<br>классификатор<br><b>Main.h5</b><br>Предсказание<br>групп 0-53]:::process
     
     Check{get_results_NN<br>Список групп по<br>порогу p >= 0.2}:::condition
     

@@ -7,7 +7,7 @@
 ## 👥 Состав команды и роли
 | Разработчик | Роль                                                     |
 | :--- |:---------------------------------------------------------|
-| **Максим Парфенов** | Backend Python Developer                           |
+| **Максим Парфенов** | Backend Python Developer (AI, C++ Integration)                          |
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 🏷️ Ссылка на реализованную в данном приложении ИИ с панелью для рисования (тестирование системы)
 
-
+[https://github.com/maxitool/neural-network-paint-panel.git](https://github.com/maxitool/neural-network-paint-panel.git)
 
 ---
 
